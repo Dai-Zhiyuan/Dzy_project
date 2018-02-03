@@ -1,0 +1,257 @@
+$mainColor: #B81B22;
+
+header{
+    height: 32px;
+    background-color: #F7F7F7;
+    text-align: center;
+    font-size: 14px;
+    color:#808080;
+    line-height: 32px;
+    .container{
+        height: 32px;
+        .headr{
+            width: 126px;
+            height: 32px;
+            padding:0 50px 0 20px;
+            position:relative;
+            .laba{
+                display: inline-block;
+                width: 20px;
+                height: 30px;
+                background: url('../img/laba.png')no-repeat;
+                position:absolute;
+                left:0;
+                top:1px;
+            }
+            .weixin{
+                display: inline-block;
+                width: 50px;
+                height: 30px;
+                background: url('../img/weixin.png')no-repeat;
+                position:absolute;
+                right:0;
+                top:1px;
+            }
+            &:hover .erweima{
+                    display: block;
+                }
+            .erweima {
+                display: none;
+                position:absolute;
+                top: 33px;
+                left: 10px;
+                z-index:6;
+                img{
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+        }
+        .headl{
+            width: 350px;
+            height: 32px;
+            ul{
+                li{
+                    float:left;
+                    padding:0 8px;
+                }
+            }
+        }
+    }
+}
+#search{
+    height: 90px;
+    overflow: hidden;
+    .container{
+        height: 62px;
+        margin-top: 20px;
+        background-color: #F7F7F7;
+        .sr{
+            width: 430px;
+            height: 62px;
+            padding-top: 8px;
+            .s_top{
+                width: 430px;
+                height: 30px;
+                input{
+                    width: 262px;
+                    height: 28px;
+                    padding-left: 10px;
+                    float:left;
+                    border: 1px solid #ccc;
+                }
+                button{
+                    float:left;
+                    color:#fff;
+                    text-align: center;
+                    line-height: 28px;
+                    width: 48px;
+                    height: 28px;
+                    border: 1px solid #ccc;
+                    background-color: $mainColor;
+                }
+                .buycar{
+                    float:left;
+                    text-align: center;
+                    line-height: 30px;
+                    font-size: 12px;
+                    margin-left: 10px;
+                    width: 108px;
+                    height: 30px;
+                    background-color: $mainColor;
+                    position:relative;
+                    a{
+                        color:#fff;
+                        .icon{
+                            display: inline-block;
+                            width: 28px;
+                            height: 28px;
+                            background: url('../img/bc.png')no-repeat;
+                            position:absolute;
+                            left:0;
+                            top:1px;
+                        }
+                    }
+                }
+            }
+            .hotword{
+                width: 428px;
+                height: 23px;
+                padding-top: 2px;
+                color:#727171;
+                line-height: 18px;
+                p{
+                    margin-left: 15px;
+                    font-size: 12px;
+
+                    a{
+                        margin: 0 5px 0 0;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+nav{
+    height: 77px;
+    .container{
+        height: 77px;
+        h1{
+            float:left;
+            width: 190px;
+            height: 77px;
+            background: url('../img/logo.png');
+            text-indent:-1000px; 
+        }
+        >ul{
+            padding-top: 25px;
+            float:left;
+            >li{
+                float:left;
+                position:relative;
+                padding: 0 32px 0 33px;
+                border-right: 1px solid #888;
+                span{
+                    display: block;
+                    width: 28px;
+                    height: 20px;
+                    background: url('../img/new.png');
+                    position:absolute;
+                    left:62px;
+                    top:-15px;
+                }
+                >ul{
+                    display: none;
+                    border-top: 8px solid $mainColor;
+                    position:absolute;
+                    left: 0;
+                    top:24px;
+                    z-index:9;
+                    >li{
+                        width: 98px;
+                        height: 30px;
+                        text-align: center;
+                        background-color: #FFF;
+                    }
+                }
+            }
+            li:last-child{
+                border-right: none;
+            }
+            >li:hover ul{
+                display: block;
+            }
+        }
+    }
+}
+#banner{
+    height: 538px;
+    .container{
+        height: 538px;
+        .ban{
+            width: 1200px;
+            height: 538px;
+            position:relative;
+        }
+    }
+}
+#main{
+    padding: 10px 0 10px 0;
+    .container{
+        height: 2000px;
+        background-color: $mainColor;
+    }
+}
+#fix{
+    position:fixed;
+    bottom:50px;
+    right: 10px;
+    .top{
+        width: 77px;
+        height: 210px;
+        border: 1px solid $mainColor;
+        img{
+            width: 77px;
+            height: 140px;
+        }
+        button{
+            width: 77px;
+            height: 70px;
+            color:#fff;
+            text-align: center;
+            background-color: $mainColor;
+        }
+    }
+}
+footer{
+    height: 165px;
+    border-top: 2px solid #3E3A39;
+    .container{
+        height: 160px;
+        .f_top{
+            height: 50px;
+            margin: 10px auto;
+            p{
+                text-align: center;
+                color:#3e3a39;
+                line-height: 25px;
+                font-size: 12px;
+            }
+        }
+        .f_bot{
+            height: 90px;
+            padding-top: 10px;
+            ul{
+                height: 70px;
+                width: 750px;
+                margin: 0 auto;
+                li{
+                    height: 70px;
+                    width: 150px;
+                    float:left;
+                }
+            }
+        }
+    }
+}

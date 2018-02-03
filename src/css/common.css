@@ -1,0 +1,104 @@
+header {
+  height: 32px;
+  background-color: #F7F7F7;
+  text-align: center;
+  font-size: 14px;
+  color: #808080;
+  line-height: 32px;
+}
+
+header .container {
+  height: 32px;
+}
+
+header .container .headr {
+  width: 126px;
+  height: 32px;
+  padding: 0 50px 0 20px;
+  position: relative;
+}
+
+header .container .headr .laba {
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  background: url("../img/laba.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+header .container .headr .weixin {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background: url("../img/weixin.png") no-repeat;
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+
+header .container .headr:hover .erweima {
+  display: block;
+}
+
+header .container .headr .erweima {
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 10px;
+  z-index: 6;
+}
+
+header .container .headr .erweima img {
+  width: 100px;
+  height: 100px;
+}
+
+header .container .headl {
+  width: 350px;
+  height: 32px;
+}
+
+header .container .headl ul li {
+  float: left;
+  padding: 0 8px;
+}
+
+footer {
+  height: 165px;
+  border-top: 2px solid #3E3A39;
+}
+
+footer .container {
+  height: 160px;
+}
+
+footer .container .f_top {
+  height: 50px;
+  margin: 10px auto;
+}
+
+footer .container .f_top p {
+  text-align: center;
+  color: #3e3a39;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+footer .container .f_bot {
+  height: 90px;
+  padding-top: 10px;
+}
+
+footer .container .f_bot ul {
+  height: 70px;
+  width: 750px;
+  margin: 0 auto;
+}
+
+footer .container .f_bot ul li {
+  height: 70px;
+  width: 150px;
+  float: left;
+}

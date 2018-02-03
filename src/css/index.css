@@ -1,0 +1,299 @@
+header {
+  height: 32px;
+  background-color: #F7F7F7;
+  text-align: center;
+  font-size: 14px;
+  color: #808080;
+  line-height: 32px;
+}
+
+header .container {
+  height: 32px;
+}
+
+header .container .headr {
+  width: 126px;
+  height: 32px;
+  padding: 0 50px 0 20px;
+  position: relative;
+}
+
+header .container .headr .laba {
+  display: inline-block;
+  width: 20px;
+  height: 30px;
+  background: url("../img/laba.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+header .container .headr .weixin {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background: url("../img/weixin.png") no-repeat;
+  position: absolute;
+  right: 0;
+  top: 1px;
+}
+
+header .container .headr:hover .erweima {
+  display: block;
+}
+
+header .container .headr .erweima {
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: 10px;
+  z-index: 6;
+}
+
+header .container .headr .erweima img {
+  width: 100px;
+  height: 100px;
+}
+
+header .container .headl {
+  width: 350px;
+  height: 32px;
+}
+
+header .container .headl ul li {
+  float: left;
+  padding: 0 8px;
+}
+
+#search {
+  height: 90px;
+  overflow: hidden;
+}
+
+#search .container {
+  height: 62px;
+  margin-top: 20px;
+  background-color: #F7F7F7;
+}
+
+#search .container .sr {
+  width: 430px;
+  height: 62px;
+  padding-top: 8px;
+}
+
+#search .container .sr .s_top {
+  width: 430px;
+  height: 30px;
+}
+
+#search .container .sr .s_top input {
+  width: 262px;
+  height: 28px;
+  padding-left: 10px;
+  float: left;
+  border: 1px solid #ccc;
+}
+
+#search .container .sr .s_top button {
+  float: left;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  width: 48px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background-color: #B81B22;
+}
+
+#search .container .sr .s_top .buycar {
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin-left: 10px;
+  width: 108px;
+  height: 30px;
+  background-color: #B81B22;
+  position: relative;
+}
+
+#search .container .sr .s_top .buycar a {
+  color: #fff;
+}
+
+#search .container .sr .s_top .buycar a .icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url("../img/bc.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+#search .container .sr .hotword {
+  width: 428px;
+  height: 23px;
+  padding-top: 2px;
+  color: #727171;
+  line-height: 18px;
+}
+
+#search .container .sr .hotword p {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+#search .container .sr .hotword p a {
+  margin: 0 5px 0 0;
+  font-size: 12px;
+}
+
+nav {
+  height: 77px;
+}
+
+nav .container {
+  height: 77px;
+}
+
+nav .container h1 {
+  float: left;
+  width: 190px;
+  height: 77px;
+  background: url("../img/logo.png");
+  text-indent: -1000px;
+}
+
+nav .container > ul {
+  padding-top: 25px;
+  float: left;
+}
+
+nav .container > ul > li {
+  float: left;
+  position: relative;
+  padding: 0 32px 0 33px;
+  border-right: 1px solid #888;
+}
+
+nav .container > ul > li span {
+  display: block;
+  width: 28px;
+  height: 20px;
+  background: url("../img/new.png");
+  position: absolute;
+  left: 62px;
+  top: -15px;
+}
+
+nav .container > ul > li > ul {
+  display: none;
+  border-top: 8px solid #B81B22;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  z-index: 9;
+}
+
+nav .container > ul > li > ul > li {
+  width: 98px;
+  height: 30px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+nav .container > ul li:last-child {
+  border-right: none;
+}
+
+nav .container > ul > li:hover ul {
+  display: block;
+}
+
+#banner {
+  height: 538px;
+}
+
+#banner .container {
+  height: 538px;
+}
+
+#banner .container .ban {
+  width: 1200px;
+  height: 538px;
+  position: relative;
+}
+
+#main {
+  padding: 10px 0 10px 0;
+}
+
+#main .container {
+  height: 2000px;
+  background-color: #B81B22;
+}
+
+#fix {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+
+#fix .top {
+  width: 77px;
+  height: 210px;
+  border: 1px solid #B81B22;
+}
+
+#fix .top img {
+  width: 77px;
+  height: 140px;
+}
+
+#fix .top button {
+  width: 77px;
+  height: 70px;
+  color: #fff;
+  text-align: center;
+  background-color: #B81B22;
+}
+
+footer {
+  height: 165px;
+  border-top: 2px solid #3E3A39;
+}
+
+footer .container {
+  height: 160px;
+}
+
+footer .container .f_top {
+  height: 50px;
+  margin: 10px auto;
+}
+
+footer .container .f_top p {
+  text-align: center;
+  color: #3e3a39;
+  line-height: 25px;
+  font-size: 12px;
+}
+
+footer .container .f_bot {
+  height: 90px;
+  padding-top: 10px;
+}
+
+footer .container .f_bot ul {
+  height: 70px;
+  width: 750px;
+  margin: 0 auto;
+}
+
+footer .container .f_bot ul li {
+  height: 70px;
+  width: 150px;
+  float: left;
+}
