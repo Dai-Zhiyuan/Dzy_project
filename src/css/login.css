@@ -1,0 +1,156 @@
+#head {
+  height: 70px;
+}
+
+#head .container {
+  height: 70px;
+  border-bottom: 1px solid #3E3A39;
+}
+
+#head .container h1 {
+  float: left;
+  background: url("../img/logo.png");
+  text-indent: -1000px;
+  width: 190px;
+  height: 68px;
+}
+
+#head .container a {
+  line-height: 70px;
+}
+
+#main {
+  height: 525px;
+}
+
+#main .container {
+  height: 525px;
+}
+
+#main .container .login_l {
+  width: 680px;
+  height: 525px;
+}
+
+#main .container .login_r {
+  width: 520px;
+  height: 525px;
+}
+
+#main .container .login_r h2 {
+  width: 220px;
+  height: 90px;
+  float: left;
+  font-weight: bold;
+  padding-top: 35px;
+  line-height: 56px;
+  color: #979797;
+  font-size: 26px;
+}
+
+#main .container .login_r > p {
+  width: 220px;
+  height: 90px;
+  padding-left: 80px;
+  float: left;
+  padding-top: 35px;
+  line-height: 68px;
+  color: #979797;
+  font-size: 14px;
+}
+
+#main .container .login_r > p a {
+  color: #B81B22;
+}
+
+#main .container .login_r .form {
+  width: 405px;
+  height: 415px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+
+#main .container .login_r .form .putong {
+  width: 200px;
+  height: 36px;
+  background-color: #B81B22;
+  color: #fff;
+  text-align: center;
+  line-height: 36px;
+  font-size: 14px;
+}
+
+#main .container .login_r .form .kuaisu {
+  width: 203px;
+  height: 36px;
+  background-color: #F5F5F5;
+  color: #3E3A39;
+  text-align: center;
+  line-height: 36px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+#main .container .login_r .form input {
+  width: 360px;
+  height: 48px;
+  border: 1px solid #ccc;
+  margin-left: 20px;
+  margin-top: 22px;
+  padding-left: 10px;
+}
+
+#main .container .login_r .form .not {
+  color: #B81B22;
+  text-align: center;
+  height: 24px;
+  visibility: hidden;
+}
+
+#main .container .login_r .form > p {
+  height: 24px;
+  padding-right: 20px;
+}
+
+#main .container .login_r .form > p a {
+  float: right;
+  color: #B81B22;
+  font-weight: bold;
+}
+
+#main .container .login_r .form .btn {
+  width: 360px;
+  height: 46px;
+  background-color: #B81B22;
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 20px;
+}
+
+#main .container .login_r .form .form_b {
+  margin-top: 40px;
+  border-top: 1px dashed #999;
+}
+
+#main .container .login_r .form .form_b p {
+  margin-top: 14px;
+  line-height: 26px;
+  color: #979797;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#main .container .login_r .form .form_b img {
+  margin-left: 20px;
+}
+
+#foot footer {
+  border-top: none;
+}
+
+#foot footer .container {
+  border-top: 1px solid #3E3A39;
+}

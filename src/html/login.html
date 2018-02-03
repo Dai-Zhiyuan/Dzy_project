@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+    <script type="text/javascript" src="../js/login.js"></script>
+    <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        jQuery(function($){
+             $('#foot').load('footer.html');
+        });
+    </script>
+</head>
+<body>
+    <div id="head">
+        <div class="container clearfix">
+            <h1>凡客vancl</h1>
+            <a href="#" class="fr">帮助</a>
+        </div>
+    </div>
+    <div id="main">
+        <div class="container clearfix">
+            <div class="login_l fl">
+                <img src="../img/login_l.png" alt="" />
+            </div>
+            <div class="login_r fl">
+                <h2>凡客 Vancl 登录</h2>
+                <p>没有账户免费<a href="reg.html">注册</a></p>
+                <div class="form fl">
+                    <div class="putong fl">普通登录</div>
+                    <div class="kuaisu fl">快速登录</div>
+                    <input type="text" placeholder="请输入用户名"/><br />
+                    <input type="password" placeholder="请输入密码"/><br />
+                    <p class="not">!没有该账户</p>
+                    <p><a href="#">找回密码</a></p>
+                    <div class="btn">登 录</div>
+                    <div class="form_b">
+                        <p>使用合作网站账号登录凡客</p>
+                        <img src="../img/fomt_b.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="foot"></div>
+</body>
+</html>
