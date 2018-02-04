@@ -1,0 +1,112 @@
+$mainColor: #B81B22;
+
+#head{
+    height: 70px;
+    .container{
+        height: 70px;
+        border-bottom: 1px solid #3E3A39;
+        h1{
+            background: url('../img/logo.png');
+            text-indent:-1000px; 
+            width: 190px;
+            height: 68px;
+        }
+    }
+}
+#main{
+    height: 560px;
+    .container{
+        height: 525px;
+        .reg_l{
+            width: 680px;
+            height: 525px;
+        }
+        .reg_r{
+            width: 520px;
+            height: 525px;
+            .reg_top{
+                width: 424px;
+                height: 84px;
+                padding-top: 40px;
+                border-bottom: 2px solid $mainColor;
+                h1{
+                    float:left;
+                    width: 110px;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 22px;
+                    color:#9A9A9A;
+                }
+                p{
+                    float:right;
+                    margin-top: 2px;
+                    font-size: 14px;
+                    line-height: 42px;
+                    color:#9A9A9A;
+                    a{
+                        color:$mainColor;
+                        font-weight: bold;
+                    }
+                }
+            }
+            .reg_form{
+                width: 414px;
+                height: 440px;
+                padding-top: 20px;
+                margin-left: 10px;
+                input{
+                    float:left;
+                    height: 42px;
+                    padding-left: 10px;
+                    margin-top: 16px;
+                    border: 1px solid #9A9A9A;
+                }
+                .yanzheng,.shoujihao{
+                    width: 264px;
+                }
+                .sjyanzheng,.psw1,.psw2{
+                    width: 412px;
+                }
+                div{
+                    float:right;
+                    width: 142px;
+                    height: 42px;
+                    margin-top: 16px;
+                    line-height: 42px;
+                    border: 1px solid #9A9A9A;
+                    background-color: #F5F5F5;
+                }
+                .duanxin{
+                    font-size: 12px;
+                    color:$mainColor;
+                    text-align: center;
+                }
+                p{
+                    float:left;
+                    width: 270px;
+                    height: 58px;
+                    line-height: 70px;
+                    font-size: 14px;
+                    color:#9A9A9A;
+                    a{
+                        color:$mainColor;
+                    }
+                }
+                .zhuce{
+                    width: 414px;
+                    height: 46px;
+                    background-color: #9A9A9A;
+                    text-align: center;
+                    line-height: 46px;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+
+#foot{
+    footer{
+        border-top: none;
+    }
+}

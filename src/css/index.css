@@ -230,9 +230,245 @@ nav .container > ul > li:hover ul {
   padding: 10px 0 10px 0;
 }
 
-#main .container {
-  height: 4000px;
-  background-color: #B81B22;
+#main .container .chongzhi {
+  width: 1200px;
+  height: 92px;
+  margin: 10px 0;
+}
+
+#main .container .miaosha {
+  height: 440px;
+}
+
+#main .container .miaosha h1 {
+  height: 64px;
+}
+
+#main .container .miaosha h1 img {
+  height: 64px;
+  width: 775px;
+  float: left;
+}
+
+#main .container .miaosha h1 .daojishi {
+  margin-top: 1px;
+  float: right;
+  height: 63px;
+  font-size: 20px;
+  width: 425px;
+  background-color: #FF2933;
+  line-height: 64px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+#main .container .miaosha > ul {
+  height: 355px;
+  padding: 10px 0;
+}
+
+#main .container .miaosha > ul li {
+  width: 232px;
+  height: 340px;
+  float: left;
+  margin-left: 10px;
+}
+
+#main .container .miaosha > ul li p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #474747;
+}
+
+#main .container .miaosha > ul li del {
+  font-size: 14px;
+  color: #DDDDDB;
+}
+
+#main .container .miaosha > ul li > div {
+  height: 30px;
+  font-size: 16px;
+}
+
+#main .container .miaosha > ul li > div span {
+  color: #B81B22;
+}
+
+#main .container .miaosha > ul li > div span:nth-child(2) {
+  float: right;
+  color: #474747;
+  line-height: 18px;
+}
+
+#main .container .miaosha > ul li > div span:nth-child(2) b {
+  font-size: 22px;
+  color: #B81B22;
+}
+
+#main .container .miaosha > ul li:nth-child(1) {
+  margin-left: 0;
+}
+
+#main .container .t_xue {
+  height: 555px;
+}
+
+#main .container .t_xue img {
+  height: 64px;
+}
+
+#main .container .t_xue ul {
+  height: 485px;
+  padding: 20px 0;
+}
+
+#main .container .t_xue ul li {
+  width: 266px;
+  height: 442px;
+  float: left;
+  margin: 0 17px;
+}
+
+#main .container .t_xue ul li img {
+  width: 266px;
+  height: 330px;
+}
+
+#main .container .t_xue ul li .jiage {
+  width: 266px;
+  height: 112px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  background-color: #D90009;
+}
+
+#main .container .t_xue ul li .jiage p {
+  line-height: 34px;
+}
+
+#main .container .t_xue ul li .jiage p b {
+  font-size: 22px;
+}
+
+#main .container .waitao {
+  height: 555px;
+}
+
+#main .container .waitao img {
+  height: 64px;
+}
+
+#main .container .waitao ul {
+  height: 485px;
+  padding: 20px 0;
+}
+
+#main .container .waitao ul li {
+  width: 266px;
+  height: 442px;
+  float: left;
+  margin: 0 17px;
+}
+
+#main .container .waitao ul li img {
+  width: 266px;
+  height: 330px;
+}
+
+#main .container .waitao ul li .jiage {
+  width: 266px;
+  height: 112px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  background-color: #D90009;
+}
+
+#main .container .waitao ul li .jiage p {
+  line-height: 34px;
+}
+
+#main .container .waitao ul li .jiage p b {
+  font-size: 22px;
+}
+
+#main .container .nianhuo > img {
+  height: 108px;
+}
+
+#main .container .nianhuo .zhuanqu {
+  height: 876px;
+}
+
+#main .container .nianhuo .zhuanqu li {
+  width: 294px;
+  height: 430px;
+  float: left;
+  margin: 3px 3px;
+}
+
+#main .container .nianhuo .w_j {
+  height: 410px;
+}
+
+#main .container .nianhuo .w_j .wazi {
+  width: 595px;
+  height: 410px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#main .container .nianhuo .w_j .jiaju {
+  width: 595px;
+  height: 410px;
+}
+
+#main .container .nianhuo .goods {
+  height: 1705px;
+  background-color: #ccc;
+}
+
+#main .container .lainxi {
+  height: 284px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 35px 40px 30px;
+}
+
+#main .container .lainxi .call {
+  width: 1120px;
+  height: 140px;
+}
+
+#main .container .lainxi .call li {
+  height: 140px;
+  width: 368px;
+  float: left;
+  border-left: 1px solid #ccc;
+}
+
+#main .container .lainxi .call li:nth-child(1) {
+  border-left: 0;
+}
+
+#main .container .lainxi .guanyu {
+  height: 60px;
+  margin-top: 22px;
+  background-color: #F8F8F8;
+}
+
+#main .container .lainxi .guanyu li {
+  float: left;
+  padding: 0 60px;
+  font-size: 14px;
+  margin-top: 22px;
+  color: #3e3a39;
+  border-left: 1px solid #ccc;
+}
+
+#main .container .lainxi .guanyu li:nth-child(1) {
+  border-left: 0;
 }
 
 #fix {
@@ -262,7 +498,7 @@ nav .container > ul > li:hover ul {
 
 footer {
   height: 165px;
-  border-top: 2px solid #3E3A39;
+  border-top: 1px solid #3E3A39;
 }
 
 footer .container {

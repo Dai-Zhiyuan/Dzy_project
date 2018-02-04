@@ -199,8 +199,207 @@ nav{
 #main{
     padding: 10px 0 10px 0;
     .container{
-        height: 4000px;
-        background-color: $mainColor;
+        
+        .chongzhi{
+            width: 1200px;
+            height: 92px;
+            margin: 10px 0;
+        }
+        .miaosha{
+            height: 440px;
+            h1{
+                height: 64px;
+                img{
+                    height: 64px;
+                    width: 775px;
+                    float:left;
+                }
+                .daojishi{
+                    margin-top: 1px;
+                    float:right;
+                    height: 63px;
+                    font-size: 20px;
+                    width: 425px;
+                    background-color: #FF2933;
+                    line-height: 64px;
+                    color:#fff;
+                    padding-left: 10px;
+
+                }
+            }
+            >ul{
+                height: 355px;
+                padding: 10px 0;
+                li{
+                    width: 232px;
+                    height: 340px;
+                    float:left;
+                    margin-left: 10px;
+                    p{
+                        font-size: 16px;
+                        margin: 10px 0;
+                        color:#474747;
+                    }
+                    del{
+                        font-size: 14px;
+                        color:#DDDDDB;
+                    }
+                    >div{
+                        height: 30px;
+                        font-size: 16px;
+                        span{
+                            color:$mainColor;
+                        }
+                        span:nth-child(2){
+                            float:right;
+                            color:#474747;
+                            line-height: 18px;
+                            b{
+                                font-size: 22px;
+                                color:$mainColor;
+                            }
+                        }
+                    }
+                }
+                li:nth-child(1) {
+                    margin-left: 0;
+                }
+            }
+        }
+        .t_xue{
+            height: 555px;
+            img{
+                height: 64px;
+            }
+            ul{
+                height: 485px;
+                padding: 20px 0;
+                li{
+                    width: 266px;
+                    height: 442px;
+                    float:left;
+                    margin: 0 17px;
+                    img{
+                        width:266px;
+                        height: 330px;
+                    }
+                    .jiage{
+                        width: 266px;
+                        height: 112px;
+                        text-align: center;
+                        color:#fff;
+                        font-size: 18px;
+                        background-color: #D90009;
+                        p{
+                            line-height: 34px;
+                            b{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .waitao{
+            height: 555px;
+            img{
+                height: 64px;
+            }
+            ul{
+                height: 485px;
+                padding: 20px 0;
+                li{
+                    width: 266px;
+                    height: 442px;
+                    float:left;
+                    margin: 0 17px;
+                    img{
+                        width:266px;
+                        height: 330px;
+                    }
+                    .jiage{
+                        width: 266px;
+                        height: 112px;
+                        text-align: center;
+                        color:#fff;
+                        font-size: 18px;
+                        background-color: #D90009;
+                        p{
+                            line-height: 34px;
+                            b{
+                                font-size: 22px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .nianhuo{
+            >img{
+                height: 108px;
+            }
+            .zhuanqu{
+                height: 876px;
+                li{
+                    width: 294px;
+                    height: 430px;
+                    float:left;
+                    margin: 3px 3px;
+                }
+            }
+            .w_j{
+                height: 410px;
+                .wazi{
+                    width: 595px;
+                    height: 410px;
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+                .jiaju{
+                    width: 595px;
+                    height: 410px;
+                }
+            }
+            .goods{
+                height: 1705px;
+                background-color: #ccc;
+            }
+        }
+        .lainxi{
+            height: 284px;
+            margin: 20px 0;
+            border: 1px solid #ccc;
+            padding: 35px 40px 30px;
+            .call{
+                width: 1120px;
+                height: 140px;
+                li{
+                    height: 140px;
+                    width: 368px;
+                    float:left;
+                    border-left: 1px solid #ccc;
+                }
+                li:nth-child(1){
+                    border-left: 0;
+                }
+            }
+            .guanyu{
+                height: 60px;
+                margin-top: 22px;
+                background-color: #F8F8F8;
+                li{
+                    float:left;
+                    padding: 0 60px;
+                    font-size: 14px;
+                    margin-top: 22px;
+                    color:#3e3a39;
+                    border-left: 1px solid #ccc;
+                }
+                li:nth-child(1){
+                    border-left: 0;
+                }
+            }
+        }
     }
 }
 #fix{
@@ -226,7 +425,7 @@ nav{
 }
 footer{
     height: 165px;
-    border-top: 2px solid #3E3A39;
+    border-top: 1px solid #3E3A39;
     .container{
         height: 160px;
         .f_top{

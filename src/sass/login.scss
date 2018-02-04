@@ -74,6 +74,19 @@ $mainColor: #B81B22;
                     line-height: 36px;
                     font-size: 14px;
                     border: 1px solid #ccc;
+                    position: relative;
+                    .shaoma{
+                        width: 258px;
+                        height: 258px;
+                        position:absolute;
+                        left:-60px;
+                        top:38px;
+                        display: none;
+                        border: 1px solid #ccc;
+                    }
+                    &:hover .shaoma{
+                        display: block;
+                    }
                 }
                 input{
                     width: 360px;
