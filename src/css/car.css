@@ -1,0 +1,243 @@
+#head {
+  height: 56px;
+}
+
+#head .container {
+  border-bottom: 1px solid #7A7F89;
+}
+
+#head .container h1 {
+  height: 56px;
+  width: 260px;
+  float: left;
+}
+
+#head .container h1 img {
+  width: 140px;
+  height: 50px;
+  margin-top: 6px;
+  margin-left: 70px;
+}
+
+#head .container p {
+  float: right;
+  width: 330px;
+  font-size: 14px;
+  color: #656565;
+  line-height: 56px;
+}
+
+#head .container p .log, #head .container p .reg {
+  color: #B81B22;
+}
+
+#head .container p .help {
+  margin-left: 25px;
+}
+
+#main {
+  margin: 10px 0;
+}
+
+#main .container > img {
+  display: block;
+  height: 42px;
+  width: 650px;
+}
+
+#main .container > h1 {
+  font-size: 20px;
+  height: 40px;
+  font-weight: bold;
+  padding-left: 42px;
+  line-height: 40px;
+  position: relative;
+}
+
+#main .container > h1 i {
+  display: block;
+  width: 42px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url("../img/car.png");
+}
+
+#main .container > p {
+  height: 28px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #656565;
+}
+
+#main .container > p span {
+  color: #B81B22;
+}
+
+#main .container .list {
+  height: 150px;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+#main .container .list .l_top {
+  height: 40px;
+  border-bottom: 1px solid #ccc;
+  background: -webkit-linear-gradient(bottom, #ccc 0%, #fff 99%);
+}
+
+#main .container .list .l_top ul li {
+  float: left;
+  width: 110px;
+  font-size: 14px;
+  line-height: 40px;
+  color: #000;
+  text-align: center;
+}
+
+#main .container .list .l_top ul li:nth-child(3) {
+  width: 300px;
+}
+
+#main .container .list .cont {
+  padding: 20px;
+}
+
+#main .container .list .cont > ul li {
+  height: 70px;
+  background-color: #F8F8F8;
+  line-height: 70px;
+  text-align: center;
+}
+
+#main .container .list .cont > ul li span {
+  display: inline-block;
+  float: left;
+  margin: 0 30px;
+}
+
+#main .container .list .cont > ul li .c_box {
+  display: inline-block;
+  margin-top: 30px;
+  line-height: 70px;
+  float: left;
+  margin-left: 20px;
+}
+
+#main .container .list .cont > ul li img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin-left: 70px;
+  float: left;
+  margin-top: 10px;
+}
+
+#main .container .list .cont > ul li .des {
+  display: inline-block;
+  float: left;
+  width: 300px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#main .container .list .cont > ul li .g_qty button {
+  width: 20px;
+  height: 22px;
+  border: 1px solid #ccc;
+}
+
+#main .container .list .cont > ul li .g_qty .shu {
+  width: 30px;
+  height: 20px;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+}
+
+#main .container .jiesuan {
+  border: 1px solid #ccc;
+  background-color: #FFFEF5;
+  height: 120px;
+  margin-bottom: 28px;
+}
+
+#main .container .jiesuan .j_left {
+  width: 666px;
+  float: left;
+  height: 120px;
+  padding: 10px 10px 0 20px;
+}
+
+#main .container .jiesuan .j_left p {
+  line-height: 50px;
+  font-size: 14px;
+  color: #666;
+}
+
+#main .container .jiesuan .j_left p .del {
+  margin: 0 50px 0 30px;
+  background-color: #FFFEF5;
+}
+
+#main .container .jiesuan .j_left p .qty {
+  color: #B81B22;
+}
+
+#main .container .jiesuan .j_left p i {
+  color: #B81B22;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+#main .container .jiesuan .j_left p b {
+  font-size: 30px;
+  color: #B81B22;
+}
+
+#main .container .jiesuan .j_rig {
+  float: left;
+  height: 120px;
+  padding: 30px 10px 0 85px;
+}
+
+#main .container .jiesuan .j_rig button {
+  margin-left: 50px;
+  background-color: #FFFEF5;
+}
+
+#main .container .jiesuan .j_rig .jixu {
+  display: block;
+  width: 122px;
+  height: 40px;
+  background-color: #E2E1E1;
+  text-align: center;
+  line-height: 40px;
+  color: #656565;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#main .container .jiesuan .j_rig .mai {
+  display: block;
+  width: 160px;
+  height: 50px;
+  background-color: #B81B22;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#foot footer {
+  border-top: none;
+}
+
+#foot footer .container {
+  border-top: 1px solid #7A7F89;
+}

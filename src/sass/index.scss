@@ -364,6 +364,44 @@ nav{
             .goods{
                 height: 1705px;
                 background-color: #ccc;
+                li{
+                    width: 288px;
+                    height: 400px;
+                    float:left;
+                    margin-right: 16px;
+                    margin-top: 25px;
+                    img{
+                        width: 288px;
+                        height: 299px;
+                    }
+                    p{
+                        height: 50px;
+                        width: 288px;
+                        background-color: #FFF;
+                        text-align: center;
+                        line-height: 50px;
+                        font-size: 20px;
+                    }
+                    .price{
+                        height: 50px;
+                        width: 288px;
+                        background-color: #D90009;
+                        text-align: center;
+                        line-height: 50px;
+                        font-size: 20px;
+                        color:#fff;
+                        b{
+                            font-weight: bold;
+                            font-size: 26px;
+                        }
+                        a{
+                            color:#fff;
+                        }
+                    }
+                }
+                li:nth-child(4n){
+                    margin-right: 0;
+                }
             }
         }
         .lainxi{

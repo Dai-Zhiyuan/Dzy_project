@@ -1,0 +1,239 @@
+#search {
+  height: 90px;
+  overflow: hidden;
+}
+
+#search .container {
+  height: 62px;
+  margin-top: 20px;
+  background-color: #F7F7F7;
+}
+
+#search .container .sr {
+  width: 430px;
+  height: 62px;
+  padding-top: 8px;
+}
+
+#search .container .sr .s_top {
+  width: 430px;
+  height: 30px;
+}
+
+#search .container .sr .s_top input {
+  width: 262px;
+  height: 28px;
+  padding-left: 10px;
+  float: left;
+  border: 1px solid #ccc;
+}
+
+#search .container .sr .s_top button {
+  float: left;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  width: 48px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background-color: #B81B22;
+}
+
+#search .container .sr .s_top .buycar {
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  margin-left: 10px;
+  width: 108px;
+  height: 30px;
+  background-color: #B81B22;
+  position: relative;
+}
+
+#search .container .sr .s_top .buycar a {
+  color: #fff;
+}
+
+#search .container .sr .s_top .buycar a .icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url("../img/bc.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 1px;
+}
+
+#search .container .sr .hotword {
+  width: 428px;
+  height: 23px;
+  padding-top: 2px;
+  color: #727171;
+  line-height: 18px;
+}
+
+#search .container .sr .hotword p {
+  margin-left: 15px;
+  font-size: 12px;
+}
+
+#search .container .sr .hotword p a {
+  margin: 0 5px 0 0;
+  font-size: 12px;
+}
+
+nav {
+  height: 77px;
+}
+
+nav .container {
+  height: 77px;
+}
+
+nav .container h1 {
+  float: left;
+  width: 190px;
+  height: 77px;
+  background: url("../img/logo.png");
+  text-indent: -1000px;
+}
+
+nav .container > ul {
+  padding-top: 25px;
+  float: left;
+}
+
+nav .container > ul > li {
+  float: left;
+  position: relative;
+  padding: 0 32px 0 33px;
+  border-right: 1px solid #888;
+}
+
+nav .container > ul > li span {
+  display: block;
+  width: 28px;
+  height: 20px;
+  background: url("../img/new.png");
+  position: absolute;
+  left: 62px;
+  top: -15px;
+}
+
+nav .container > ul > li > ul {
+  display: none;
+  border: 1px solid #ccc;
+  border-top: 8px solid #B81B22;
+  position: absolute;
+  left: 0;
+  top: 24px;
+  z-index: 9;
+}
+
+nav .container > ul > li > ul > li {
+  width: 98px;
+  height: 30px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+nav .container > ul li:last-child {
+  border-right: none;
+}
+
+nav .container > ul > li:hover ul {
+  display: block;
+}
+
+#main .container .m_top {
+  height: 565px;
+  background-color: #ccc;
+}
+
+#main .container .show {
+  height: 2340px;
+  background-color: #ddd;
+}
+
+#main .container .zhinan {
+  height: 1510px;
+  background-color: #eee;
+}
+
+#main .container .baoyang {
+  height: 500px;
+  background-color: #666;
+}
+
+#main .container .pingfen {
+  height: 1510px;
+  background-color: #777;
+}
+
+#main .container .lainxi {
+  height: 284px;
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 35px 40px 30px;
+}
+
+#main .container .lainxi .call {
+  width: 1120px;
+  height: 140px;
+}
+
+#main .container .lainxi .call li {
+  height: 140px;
+  width: 368px;
+  float: left;
+  border-left: 1px solid #ccc;
+}
+
+#main .container .lainxi .call li:nth-child(1) {
+  border-left: 0;
+}
+
+#main .container .lainxi .guanyu {
+  height: 60px;
+  margin-top: 22px;
+  background-color: #F8F8F8;
+}
+
+#main .container .lainxi .guanyu li {
+  float: left;
+  padding: 0 60px;
+  font-size: 14px;
+  margin-top: 22px;
+  color: #3e3a39;
+  border-left: 1px solid #ccc;
+}
+
+#main .container .lainxi .guanyu li:nth-child(1) {
+  border-left: 0;
+}
+
+#fix {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
+
+#fix .to_top {
+  width: 77px;
+  height: 210px;
+  border: 1px solid #B81B22;
+}
+
+#fix .to_top img {
+  width: 77px;
+  height: 140px;
+}
+
+#fix .to_top button {
+  width: 77px;
+  height: 70px;
+  color: #fff;
+  text-align: center;
+  background-color: #B81B22;
+}

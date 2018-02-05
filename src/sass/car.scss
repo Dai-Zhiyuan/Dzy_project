@@ -1,1 +1,222 @@
 $mainColor: #B81B22;
+
+#head{
+    height: 56px;
+    .container{
+        border-bottom: 1px solid #7A7F89;
+        h1{
+            height: 56px;
+            width: 260px;
+            float:left;
+            img{
+                width: 140px;
+                height: 50px;
+                margin-top: 6px;
+                margin-left: 70px;
+            }
+            
+        }
+        p{
+            float:right;
+            width: 330px;
+            font-size: 14px;
+            color:#656565;
+            line-height: 56px;
+            .log,.reg{
+                color:$mainColor;
+            }
+            .help{
+                margin-left: 25px
+            }
+        }
+    }
+}
+#main{
+    // height: 500px;
+    margin: 10px 0;
+    .container{
+        >img{
+            display: block;
+            height: 42px;
+            width: 650px;
+        }
+        >h1{
+            font-size: 20px;
+            height: 40px;
+            font-weight: bold;
+            padding-left: 42px;
+            line-height: 40px;
+            position:relative;
+            i{
+                display: block;
+                width: 42px;
+                height: 40px;
+                position:absolute;
+                left: 0;
+                top: 0;
+                background: url('../img/car.png');
+            }
+        }
+        >p{
+            height: 28px;
+            font-size: 14px;
+            line-height: 28px;
+            color:#656565;
+            span{
+                color:$mainColor;
+            }
+        }
+        .list{
+            height: 150px;
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            .l_top{
+                height: 40px;
+                border-bottom: 1px solid #ccc;
+                background:-webkit-linear-gradient(bottom,#ccc 0%,#fff 99%);
+                ul{
+                    li{
+                        float:left;
+                        width: 110px;
+                        font-size: 14px;
+                        line-height: 40px;
+                        color:#000;
+                        text-align: center;
+                    }
+                    li:nth-child(3){
+                        width: 300px;
+                    }
+                }
+            }
+            .cont{
+                padding: 20px;
+                >ul{
+                    li{
+                        height: 70px;
+                        background-color: #F8F8F8;
+                        line-height: 70px;
+                        text-align: center;
+                        span{
+                            display: inline-block;
+                            float:left;
+                            margin: 0 30px;
+                            
+                        }
+                        .c_box{
+                            display: inline-block;
+                            margin-top: 30px;
+                            line-height: 70px;
+                            float:left;
+                            margin-left: 20px;
+                        }
+                        img{
+                            width: 50px;
+                            height: 50px;
+                            border: 1px solid #ccc;
+                            margin-left: 70px;
+                            float:left;
+                            margin-top: 10px;
+                        }
+                        .des{
+                            display:inline-block;
+                            float:left;
+                            width: 300px;
+                            height: 70px;
+                            line-height: 70px;
+                            font-size: 14px;
+                            color:#666;
+                            text-align: center;
+                            padding: 0 20px;
+                        }
+                        .g_qty{
+                            button{
+                                width: 20px;
+                                height: 22px;
+                                border: 1px solid #ccc;
+                            }
+                            .shu{
+                                width: 30px;
+                                height: 20px;
+                                padding-left: 10px;
+                                border: 1px solid #ccc;
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+        .jiesuan{
+            border: 1px solid #ccc;
+            background-color: #FFFEF5;
+            height: 120px;
+            margin-bottom: 28px;
+            .j_left{
+                width: 666px;
+                float:left;
+                height: 120px;
+                padding: 10px 10px 0 20px;
+                p{
+                    line-height: 50px;
+                    font-size: 14px;
+                    color:#666;
+                    .del{
+                        margin: 0 50px 0 30px;
+                        background-color: #FFFEF5;
+                    }
+                    .qty{
+                        color:$mainColor;
+                    }
+                    i{
+                        color:$mainColor;
+                        margin-left: 50px;
+                        font-weight: bold;
+                    }
+                    b{
+                        font-size: 30px;
+                        color:$mainColor;
+                    }
+                }
+            }
+            .j_rig{
+                float:left;
+                height: 120px;
+                padding: 30px 10px 0 85px;
+                button{
+                    margin-left: 50px;
+                    background-color: #FFFEF5;
+                }
+                .jixu{
+                    display: block;
+                    width: 122px;
+                    height: 40px;
+                    background-color: #E2E1E1;
+                    text-align: center;
+                    line-height: 40px;
+                    color:#656565;
+                    border: 1px solid #ccc;
+                    border-radius:5px;
+                }
+                .mai{
+                    display: block;
+                    width: 160px;
+                    height: 50px;
+                    background-color: $mainColor;
+                    text-align: center;
+                    line-height: 50px;
+                    color:#fff;
+                    font-size: 20px;
+                    border-radius:10px;
+                }
+            }
+        }
+    }
+}
+#foot{
+    footer{
+        border-top: none;
+        .container{
+            border-top: 1px solid #7A7F89;
+        }
+    }
+}

@@ -430,6 +430,51 @@ nav .container > ul > li:hover ul {
   background-color: #ccc;
 }
 
+#main .container .nianhuo .goods li {
+  width: 288px;
+  height: 400px;
+  float: left;
+  margin-right: 16px;
+  margin-top: 25px;
+}
+
+#main .container .nianhuo .goods li img {
+  width: 288px;
+  height: 299px;
+}
+
+#main .container .nianhuo .goods li p {
+  height: 50px;
+  width: 288px;
+  background-color: #FFF;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+#main .container .nianhuo .goods li .price {
+  height: 50px;
+  width: 288px;
+  background-color: #D90009;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#main .container .nianhuo .goods li .price b {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#main .container .nianhuo .goods li .price a {
+  color: #fff;
+}
+
+#main .container .nianhuo .goods li:nth-child(4n) {
+  margin-right: 0;
+}
+
 #main .container .lainxi {
   height: 284px;
   margin: 20px 0;
