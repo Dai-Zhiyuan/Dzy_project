@@ -96,7 +96,7 @@
   width: 258px;
   height: 258px;
   position: absolute;
-  left: -60px;
+  left: -126px;
   top: 38px;
   display: none;
   border: 1px solid #ccc;
@@ -104,6 +104,14 @@
 
 #main .container .login_r .form .kuaisu:hover .shaoma {
   display: block;
+}
+
+#main .container .login_r .form .kuaisu:hover {
+  background-color: #B81B22;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  border-left: 1px solid #ccc;
 }
 
 #main .container .login_r .form input {
