@@ -3,8 +3,8 @@
 		// 默认值
 		var defaults = {
 			// 放大区域的宽高
-			width:400,
-			height:300,
+			width:380,
+			height:380,
 
 			// 显示位置
 			position:'right',//left,top,bottom,right
@@ -56,7 +56,7 @@
 
 				$big.css({
 					left:left,
-					top:top
+					top:top+35
 				});
 
 
@@ -67,7 +67,7 @@
 				$bigImg.appendTo($big);
 
 				// 写入页面
-				$big.appendTo('body');
+				$big.appendTo('.fangda');
 
 
 				// 创建放大镜

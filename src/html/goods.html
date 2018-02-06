@@ -5,14 +5,10 @@
     <title>详情页</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+    <link rel="stylesheet" href="../lib/jquery.gdsZoom/jquery.gdsZoom.css">
     <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../lib/jquery.gdsZoom/jquery.gdsZoom.js"></script>
     <script src="../js/goods.js"></script>
-    <script type="text/javascript">
-        jQuery(function($){
-             $('header').load('header.html');
-             $('#foot').load('footer.html');
-        });
-    </script>
 </head>
 <body>
     <header></header>
@@ -44,7 +40,7 @@
             <h1>凡客vancl</h1>
             <ul class="nav">
                 <li><a href="../index.html">首页</a></li>
-                <li><a href="html/list.html">衬衫</a>
+                <li><a href="./list.html">衬衫</a>
                     <span class="new"></span>
                     <ul>
                         <li><a href="#">定制</a></li>
@@ -61,7 +57,7 @@
                         <li><a href="#">泡泡纱</a></li>
                     </ul>
                 </li>
-                <li><a href="html/list.html">外套</a>
+                <li><a href="./list.html">外套</a>
                     <span class="new"></span>
                     <ul>
                         <li><a href="#">定制</a></li>
@@ -73,7 +69,7 @@
                         
                     </ul>
                 </li>
-                <li><a href="html/list.html">T恤</a>
+                <li><a href="./list.html">T恤</a>
                     <span class="new"></span>
                     <ul>
                         
@@ -84,7 +80,7 @@
                         <li><a href="#">泡泡纱</a></li>
                     </ul>
                 </li>
-                <li><a href="html/list.html">卫衣</a>
+                <li><a href="./list.html">卫衣</a>
                     <ul>
                         
                         <li><a href="#">牛津纺</a></li>
@@ -95,7 +91,7 @@
                         <li><a href="#">泡泡纱</a></li>
                     </ul>
                 </li>
-                <li><a href="html/list.html">针织衫</a>
+                <li><a href="./list.html">针织衫</a>
                     <ul>
                         <li style="width:114px;"><a href="#">定制</a></li>
                         <li style="width:114px;"><a href="#">免烫</a></li>
@@ -104,7 +100,7 @@
                        
                     </ul>
                 </li>
-                <li><a href="html/list.html">裤装</a>
+                <li><a href="./list.html">裤装</a>
                     <ul>
                         
                         <li><a href="#">牛仔</a></li>
@@ -113,14 +109,14 @@
                         <li><a href="#">泡泡纱</a></li>
                     </ul>
                 </li>
-                <li><a href="html/list.html">鞋</a>
+                <li><a href="./list.html">鞋</a>
                     <ul>
                         <li><a href="#">麻</a></li>
                         <li><a href="#">水洗棉</a></li>
                         <li><a href="#">泡泡纱</a></li>
                     </ul>
                 </li>
-                <li><a href="html/list.html">杂货</a>
+                <li><a href="./list.html">杂货</a>
                     <ul>
                         <li><a href="#">定制</a></li>
                         <li><a href="#">免烫</a></li>
@@ -136,7 +132,7 @@
                         <li><a href="#">泡泡纱</a></li>
                     </ul>
                 </li>
-                <li><a href="html/list.html">私人定制</a><ul><li style="width:129px;height:0px;"></li></ul>
+                <li><a href="./list.html">私人定制</a><ul><li style="width:129px;height:0px;"></li></ul>
                 </li>
             </ul>
         </div>
@@ -144,22 +140,175 @@
     <div id="main">
         <div class="container clearfix">
             <div class="m_top">
-                放大镜
-            </div>
-            <div class="show">
-                展示
-            </div>
-            <div class="zhinan">
-                指南
-            </div>
-            <div class="baoyang">
-                保养
-            </div>
-            <div class="pingfen">
-                评分
-            </div>
+                <ul>
+                    <li><a href="../index.html">首页 > </a></li>
+                    <li><a href="list.html">列表 > </a></li>
+                    <li><a href="goods.html">详情 > </a></li>
+                    <li><a href="car.html">购物 > </a></li>
+                    <li><a href="login.html">登录 > </a></li>
+                    <li><a href="reg.html">注册 > </a></li>
+                </ul>
+                <h1>
+                    凡客卫衣 圆领 熊本熊 S1 黑色
+                    <span>充值购买更优惠</span>
+                    <ul class="fr">
+                        <li><a href="#show">模特展示</a></li>
+                        <li><a href="#zhinan">购买指南</a></li>
+                        <li><a href="#baoyang">洗涤保养</a></li>
+                        <li><a href="#pingfen">提问评论</a></li>
+                        <li><a href="#lainxi">联系我们</a></li>
+                    </ul>
+                </h1>
 
-            <div class="lainxi">
+                <div class="fangda fl">
+                    <div class="goods">
+                        <img src="../img/good2.png" data-big="../img/good2.png">
+                    </div>
+                    <div class="smallList">
+                        <img src="../img/good1.png" data-big="../img/good1.png">
+                        <img src="../img/good2.png" alt="">
+                        <img src="../img/big1.png" alt="">
+                        <img src="../img/jiake.png" alt="">
+                        <img src="../img/jiake2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="goumai fl">
+                    <p class="p1">特惠价：￥<span>218.00</span><a href="#">充100返100，点击充值</a></p>
+                    <div class="p2">
+                        <ul><i>颜色：</i>
+                            <li><img src="../img/good2.png" alt="" />黑色</li>
+                            <li><img src="../img/good1.png" alt="" />蓝色</li>
+                            <li><img src="../img/good2.png" alt="" />灰色</li>
+                            <li><img src="../img/good1.png" alt="" />牛仔</li>
+                        </ul>
+                    </div>
+                    <p class="P3">尺码：<span>L</span>
+                            <span>XL</span>
+                            <span>XXL</span>
+                    </p>
+                    <p>数量：<input type="number" min="1" max="10" value="1" /></p>
+                    <p>已选：<span>浅花灰</span><b>现在有货</b></p>
+                    <button class="btn_m"><a href="car.html">立即购买</a></button><button class="btn_j">加入购物车</button>
+                    <p class="tishi"> &nbsp;
+                    . 全场购物满199元免运费<span>优惠提示</span></p>
+                </div>
+            </div>
+            <div id="show">
+                <h1>
+                    <img src="../img/show.png" alt="" />
+                </h1>
+                <div class="tu">
+                    <img src="../img/big1.png" class="big1"/>
+                    <img src="../img/big.png" class="big2"/>
+                    <img src="../img/detail.png" class="big3 fr"/>
+                </div>
+            </div>
+            <div id="zhinan">
+                <h1>
+                    <img src="../img/zhinan.png" alt="" />
+                </h1>
+                <div class="tu">
+                    <img src="../img/zhinan1.png" alt="" />
+                    <img src="../img/zhinan2.png" alt="" />
+                </div>
+            </div>
+            <div id="baoyang">
+                <h1>
+                    <img src="../img/baoyang.png" alt="" />
+                </h1>
+                <div class="tu">
+                    <img src="../img/baoyang1.png" alt="" />
+                </div>
+            </div>
+            <div id="pingfen">
+                <div class="tuijian fl">
+                    <h1>推荐产品</h1>
+                    <ul>
+                        <li>
+                            <img src="../img/miaos1.png" alt="" />
+                            <p>MA1飞行夹克 双面穿 薄棉 <br />C9 军绿色 </p>
+                            <b>售价￥238</b>
+                        </li>
+                        <li>
+                            <img src="../img/miaos2.png" alt="" />
+                            <p>MA1飞行夹克 双面穿 薄棉 <br />C9 军绿色 </p>
+                            <b>售价￥238</b>
+                        </li>
+                        <li>
+                            <img src="../img/miaos3.png" alt="" />
+                            <p>MA1飞行夹克 双面穿 薄棉 <br />C9 军绿色 </p>
+                            <b>售价￥238</b>
+                        </li>
+                        <li>
+                            <img src="../img/miaos4.png" alt="" />
+                            <p>MA1飞行夹克 双面穿 薄棉 <br />C9 军绿色 </p>
+                            <b>售价￥238</b>
+                        </li>
+                        <li>
+                            <img src="../img/miaos5.png" alt="" />
+                            <p>MA1飞行夹克 双面穿 薄棉 <br />C9 军绿色 </p>
+                            <b>售价￥238</b>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tiwen fr">
+                    <h1>最近提问
+                        <button><a href="login.html">我要提问</a></button>
+                    </h1>
+                    <ul>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                        <li>
+                            <p><img src="../img/q.png" alt="" />
+                            130****：您好，这个款式，那几款，背部有图案？谢谢<i>我要回复(0)</i><i>2018-02-04</i></p>
+                            <p><img src="../img/a.png" alt="" />
+                            亲爱的客户您好，熊本熊卫衣S1，S2，S5三款背后有图案，其他款背后都没有图案哦，感谢您的支持！</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="lainxi">
                 <ul class="call">
                     <li><a href="#"><img src="../img/lx1.png" alt="" /></a></li>
                     <li><a href="#"><img src="../img/lx2.png" alt="" /></a></li>

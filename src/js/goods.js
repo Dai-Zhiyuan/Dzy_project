@@ -21,3 +21,20 @@ document.addEventListener('DOMContentLoaded',function(){
 
 
 }); 
+
+jQuery(function($){
+
+    $('header').load('header.html');
+    $('#foot').load('footer.html');
+    
+    $('.goods').gdsZoom({
+        position:'right'
+    });
+
+    $('.smallList').on('click','img',function(){
+        $('.goods img').attr({
+            src:this.src,
+            'data-big':this.dataset.big || this.src
+        })
+    })
+});
