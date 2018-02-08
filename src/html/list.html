@@ -5,8 +5,7 @@
     <title>列表页</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/list.css" />
-    <script src="../lib/jquery-3.2.1.js"></script>
-    <script src="../js/list.js"></script>
+    <script src="../js/require.js" data-main="../js/list"></script>
 </head>
 <body>
     <header></header>
@@ -151,30 +150,6 @@
                     <a href="#"></a>
                 </div>
             </div>
-            <div class="all">
-                <div class="a_t">
-                    <h3>全部商品</h3>
-                    <div class="fr">
-                        1/1
-                        <button><a href="#"> < </a></button><button><a href="#">下一页 > </a></button>
-                    </div>
-                </div>
-                <div class="a_b">
-                    <ul class="fl">
-                        <li>默认<img src="../img/jiage.png" alt="" /></li>
-                        <li>销量<img src="../img/jiage.png" alt="" /></li>
-                        <li>好评<img src="../img/jiage.png" alt="" /></li>
-                        <li>最新<img src="../img/jiage.png" alt="" /></li>
-                        <li class="paixu">价格<img src="../img/jiage1.png" alt="" /></li>
-                    </ul>
-                    <div class="shu fl">
-                        <input type="text" />—<input type="text" />
-                    </div>
-                    <div class="hebing fr">
-                        合并同款
-                    </div>
-                </div>
-            </div>
             <div class="yushou">
                 <ul>
                     <li>
@@ -203,6 +178,30 @@
                         <p><span>售价￥<del>698</del>预售价￥598</span></p>
                     </li>
                 </ul>
+            </div>
+            <div class="all">
+                <div class="a_t">
+                    <h3>全部商品</h3>
+                    <div class="fr">
+                        1/1
+                        <button><a href="#"> < </a></button><button><a href="#">下一页 > </a></button>
+                    </div>
+                </div>
+                <div class="a_b">
+                    <ul class="fl">
+                        <li>默认<img src="../img/jiage.png" alt="" /></li>
+                        <li>销量<img src="../img/jiage.png" alt="" /></li>
+                        <li>好评<img src="../img/jiage.png" alt="" /></li>
+                        <li><button class="paixu1">价格:低到高</button><img src="../img/jiage.png" alt="" /></li>
+                        <li><button class="paixu2">价格:高到低</button><img src="../img/jiage1.png" alt="" /></li>
+                    </ul>
+                    <div class="shu fl">
+                        <input type="text" />—<input type="text" />
+                    </div>
+                    <div class="hebing fr">
+                        合并同款
+                    </div>
+                </div>
             </div>
             <div id="goodlist">
 

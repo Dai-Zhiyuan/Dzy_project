@@ -1,9 +1,25 @@
-document.addEventListener('DOMContentLoaded',function(){
-    jQuery(function($){
-        $('#foot').load('footer.html');
-    });
+jQuery(function($){
 
-    //验证码
+    $('#foot').load('footer.html');
+
+    $('.zhuce').on('click',function(){console.log(666)
+        $.ajax({
+            url:'../api/reg.php',
+            data:{
+                username:$('#username').val(),
+                password:$('#password').val()
+            },
+            success:function(data){console.log(data);
+                
+                if(data === 'success'){
+                    location.href = '../html/login.html';
+                }else{
+                    alert('用户名已注册');
+                }
+            }
+        })
+    })
+    //生成验证码
     var yanzheng = document.querySelector('.yanzhengma');
     yanzheng.innerHTML=vCode();
 
@@ -30,13 +46,13 @@ document.addEventListener('DOMContentLoaded',function(){
             alert('手机号码不合法');
             return false;
         };
-        /*
-        验证用户名 ：  
-            * 不能为空，
-            * 不能使用特殊字符（数字、字母、横杠），
-            * 必须以字母开头，
-            * 长度5-20
-        */
+        
+        // 验证用户名 ：  
+        //    * 不能为空，
+        //    * 不能使用特殊字符（数字、字母、横杠），
+        //    * 必须以字母开头，
+        //    * 长度5-20
+        
         var username = document.querySelector('.sjyanzheng');
         if(!/^[a-z][a-z0-9\-]{4,19}$/.test(username.value)){
             alert('用户名不合法');
@@ -67,7 +83,9 @@ document.addEventListener('DOMContentLoaded',function(){
 
             return false;
         }
-        location.href='login.html';
     };
+        
+})
+
     
-});
+

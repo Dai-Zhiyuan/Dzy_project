@@ -313,8 +313,11 @@ nav{
                     width:40px;
                     line-height:1.8;
                     text-align: center;
-                    background-color:$mainColor;
+                    background-color:#ccc;
                     color:#fff;
+                }
+                .active{
+                    background-color:$mainColor;
                 }
             }
         }
