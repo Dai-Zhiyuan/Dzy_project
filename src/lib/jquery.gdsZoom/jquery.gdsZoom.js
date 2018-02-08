@@ -17,7 +17,7 @@
 			var opt = $.extend({},defaults,options);
 
 			var $small = $(this);
-
+			var $yunaimg = $('#img');
 			var $smallImg = $small.find('img');
 
 			// 添加特定类
@@ -61,7 +61,9 @@
 
 
 				// 创建大图
-				var $bigImg = $('<img/>').attr('src',$smallImg.attr('data-big') || $smallImg[0].src);
+				var $bigImg = $('<img/>').attr('src',$yunaimg.attr('src'));
+
+				//console.log($bigImg.attr('src'))
 
 				// 大图写入$big
 				$bigImg.appendTo($big);
@@ -80,7 +82,7 @@
 
 				// 鼠标移入移除
 				$small.on('mouseenter',function(){
-					$bigImg.attr('src',$smallImg.attr('data-big') || $smallImg[0].src);
+					$bigImg.attr('src',$yunaimg.attr('src'));
 					$minzoom.show();
 					$big.show();
 					

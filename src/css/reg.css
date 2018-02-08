@@ -94,6 +94,14 @@
   background-color: #F5F5F5;
 }
 
+#main .container .reg_r .reg_form .yanzhengma {
+  text-align: center;
+  line-height: 42px;
+  color: #B81B22;
+  font-weight: bold;
+  font-size: 28px;
+}
+
 #main .container .reg_r .reg_form .duanxin {
   font-size: 12px;
   color: #B81B22;

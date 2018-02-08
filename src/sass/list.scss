@@ -273,7 +273,7 @@ nav{
             }
         }
         #goodlist{
-            height: 1655px;
+            // height: 1655px;
             // background-color: #ccc;
             >ul{
                 li{
@@ -306,48 +306,15 @@ nav{
                 }
             }
             .goods_b{
-                p{
-                    height: 48px;
-                    width: 1200px;
-                    float:left;
-                    padding-left: 830px;
-                    padding-top: 10px;
-                    font-size: 14px;
-                    .s{
-                        width: 58px;
-                        height: 25px;
-                        background-color: #FFF;
-                        border: 1px solid #ddd;
-                    }
-                    span{
-                        display: inline-block;
-                        width: 25px;
-                        height: 25px;
-                        border: 1px solid #ddd;
-                        text-align: center;
-                        line-height: 25px;
-                        background-color: $mainColor;
-                        color:#fff;
-                    }
-                    .x{
-                        width: 58px;
-                        height: 25px;
-                        background-color: #FFF;
-                        border: 1px solid #ddd;
-                    }
-                    input{
-                        width: 28px;
-                        height: 25px;
-                        border: 1px solid #ddd;
-                        padding-left: 8px;
-                    }
-                    .sure{
-                        width: 50px;
-                        height: 25px;
-                        background-color: #77031C;
-                        color:#fff;
-                        margin-left: 10px;
-                    }
+                padding-left: 550px;
+                span{
+                    display:inline-block;
+                    margin:5px;
+                    width:40px;
+                    line-height:1.8;
+                    text-align: center;
+                    background-color:$mainColor;
+                    color:#fff;
                 }
             }
         }

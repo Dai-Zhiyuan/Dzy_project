@@ -5,13 +5,9 @@
     <title>注册</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/reg.css" />
+    <script type="text/javascript" src="../js/common.js"></script>
     <script type="text/javascript" src="../js/reg.js"></script>
     <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
-    <script type="text/javascript">
-        jQuery(function($){
-             $('#foot').load('footer.html');
-        });
-    </script>
 </head>
 <body>
     <div id="head">
@@ -30,15 +26,28 @@
                     <p>我已经注册，现在就<a href="login.html">登录</a></p>
                 </div>
                 <div class="reg_form">
+
                     <input type="text" placeholder="验证码" class="yanzheng"/>
-                    <div class="yanzhengma"></div><br />
+
+                    <div class="yanzhengma">sd43</div><br />
+
                     <input type="text" placeholder="请输入手机号" class="shoujihao"/>
+
                     <div class="duanxin">获取短信验证码</div><br />
-                    <input type="text" placeholder="填写手机验证码" class="sjyanzheng" /><br />
+
+                    <input type="text" placeholder="请输入用户名" class="sjyanzheng" /><br />
+
                     <input type="password" placeholder="设定登录密码" class="psw1"/><br />
+
                     <input type="password" placeholder="再次输入密码" class="psw2"/><br />
-                    <p><input type="checkbox" disblock/>请阅读<a href="#">《VANCL凡客诚品服务条款》</a></p>
+
+                    <p>
+                        <input type="checkbox" id="yuedu"/>请阅读
+                        <a href="#">《VANCL凡客诚品服务条款》</a>
+                    </p>
+
                     <div class="zhuce">立即注册</div>
+
                 </div>
 
             </div>

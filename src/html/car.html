@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/car.css" />
     <script src="../lib/jquery-3.2.1.js"></script>
-    <!-- <script src="../js/car.js"></script> -->
+    <script src="../js/car.js"></script>
     <script type="text/javascript">
         jQuery(function($){      
              $('#foot').load('footer.html');
@@ -36,8 +36,8 @@
                         <li>选择</li>
                         <li>图片</li>
                         <li>商品名称</li>
-                        <li>尺寸</li>
-                        <li>单价</li>
+                        <li>原价</li>
+                        <li>现价</li>
                         <li>数量</li>
                         <li>优惠</li>
                         <li>小计</li>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="cont">
                     <ul class="goods">
-                        <li>
+                        <!-- <li>
                             <input type="checkbox" class="c_box"/>
                             <img src="../img/jiake2.png" />
                             <span class="des">PU皮夹克 小立领 黑色</span>
@@ -60,23 +60,22 @@
                             <span>-</span>
                             <span class="zongj">￥289.00</span>
                             <span><button class="del1">删除</button></span>
-
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
             <div class="jiesuan">
                 <div class="j_left">
                     <p>
-                        <input type="checkbox" />
+                        <input id="all" type="checkbox" />
                         全选
-                        <button class="del">删除</button>
+                        <button class="del">清空购物车</button>
                         数量总计：<span class="qty">0  </span>件
                         <i>您目前可享受全场购物免运费</i>
                     </p>
                     <p>
                         产品金额总计（不含运费）：
-                        <b>￥00.00</b>
+                        <b>￥<span id="total">0.00</span></b>
                     </p>
                 </div>
                 <div class="j_rig">

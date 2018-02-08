@@ -67,7 +67,7 @@ $mainColor: #B81B22;
             }
         }
         .list{
-            height: 150px;
+            // height: 150px;
             border: 1px solid #ccc;
             margin: 10px 0;
             .l_top{
@@ -94,13 +94,15 @@ $mainColor: #B81B22;
                     li{
                         height: 70px;
                         background-color: #F8F8F8;
+                        margin: 5px 0;
                         line-height: 70px;
                         text-align: center;
                         span{
                             display: inline-block;
                             float:left;
                             margin: 0 30px;
-                            
+                            color:#666;
+                            font-size: 14px;
                         }
                         .c_box{
                             display: inline-block;
@@ -136,8 +138,9 @@ $mainColor: #B81B22;
                             }
                             .shu{
                                 width: 30px;
+                                text-align: center;
                                 height: 20px;
-                                padding-left: 10px;
+                                padding: 0 10px;
                                 border: 1px solid #ccc;
                             }
                         }

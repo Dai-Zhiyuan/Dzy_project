@@ -302,10 +302,6 @@ nav .container > ul > li:hover ul {
   margin-right: 0px;
 }
 
-#main .container #goodlist {
-  height: 1655px;
-}
-
 #main .container #goodlist > ul li {
   float: left;
   width: 230px;
@@ -339,53 +335,18 @@ nav .container > ul > li:hover ul {
   margin-right: 0px;
 }
 
-#main .container #goodlist .goods_b p {
-  height: 48px;
-  width: 1200px;
-  float: left;
-  padding-left: 830px;
-  padding-top: 10px;
-  font-size: 14px;
+#main .container #goodlist .goods_b {
+  padding-left: 550px;
 }
 
-#main .container #goodlist .goods_b p .s {
-  width: 58px;
-  height: 25px;
-  background-color: #FFF;
-  border: 1px solid #ddd;
-}
-
-#main .container #goodlist .goods_b p span {
+#main .container #goodlist .goods_b span {
   display: inline-block;
-  width: 25px;
-  height: 25px;
-  border: 1px solid #ddd;
+  margin: 5px;
+  width: 40px;
+  line-height: 1.8;
   text-align: center;
-  line-height: 25px;
   background-color: #B81B22;
   color: #fff;
-}
-
-#main .container #goodlist .goods_b p .x {
-  width: 58px;
-  height: 25px;
-  background-color: #FFF;
-  border: 1px solid #ddd;
-}
-
-#main .container #goodlist .goods_b p input {
-  width: 28px;
-  height: 25px;
-  border: 1px solid #ddd;
-  padding-left: 8px;
-}
-
-#main .container #goodlist .goods_b p .sure {
-  width: 50px;
-  height: 25px;
-  background-color: #77031C;
-  color: #fff;
-  margin-left: 10px;
 }
 
 #main .container .lainxi {
