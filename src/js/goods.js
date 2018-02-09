@@ -48,7 +48,7 @@ require(['config'],function(){
                     width:30,
                     height:30
                 },function(){
-                    // 动画完成后
+                    
                     // 删除复制的图片
                     $copyImg.remove();
                 })
@@ -125,7 +125,7 @@ require(['config'],function(){
 
                 var id = obj.id;
 
-                // 判断当前商品是否已经存在cookie当中
+                // 商品是否存在cookie
                 for(var i=0;i<goodslist.length;i++){
                     if(goodslist[i].id === id){
                         goodslist[i].qty++;
@@ -134,7 +134,7 @@ require(['config'],function(){
                 }
                 
                 if(i===goodslist.length){
-                    // 通过按钮获取商品信息
+                    
                     var goods = obj;
 
                     // 添加到数组

@@ -99,9 +99,9 @@ require(['config'],function(){
                                 for(var attr in item){
                                     params += attr + '=' + item[attr] + '&';
                                 }
-                                // 删除多余的&
+                                
                                 params = params.slice(0,-1);
-                                // console.log(params);
+                                
                                 location.href = 'goods.html' + encodeURI(params);
                             }
                         });
@@ -116,7 +116,7 @@ require(['config'],function(){
 
         xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 
-        // POS请求发送数据
+        
         xhr.send(`pageNo=${pageNo}&qty=${qty}`);
 
 

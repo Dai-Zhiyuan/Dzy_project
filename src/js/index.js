@@ -86,9 +86,9 @@ require(['config'],function(){
         };
 
 
-        xhr.open('get','api/index.php',true);//readyStage=1
+        xhr.open('get','api/index.php',true);
 
-        xhr.send();//readyStage=2
+        xhr.send();
 
     })
 });

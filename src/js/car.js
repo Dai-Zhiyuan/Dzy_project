@@ -31,7 +31,7 @@ require(['config'],function(){
 
                 total += item.price*item.qty;
                 z_qty += item.qty*1;console.log(z_qty);
-                // zongjia.innerText = tolal;
+                
                 return `
                         <li data-id=${item.id}>
                             <input type="checkbox" class="c_box"/>
@@ -64,7 +64,7 @@ require(['config'],function(){
             var now = new Date();
             now.setDate(now.getDate()-10);
 
-            // 清除cookie：利用设置过期时间达到删除效果
+            
             document.cookie = 'goodslist=[];expires='+now.toUTCString();
 
             render();
@@ -73,7 +73,7 @@ require(['config'],function(){
         };
 
         // 删除单个商品
-        // 利用事件委托
+        
         ul.onclick = function(e){
             e = e || window.event;
 
@@ -94,7 +94,6 @@ require(['config'],function(){
 
                 // 重新写入cookie
                 document.cookie = 'goodslist='+JSON.stringify(goodslist);
-                //Cookie.set('goodslist',JSON.stringify(goodslist));
 
                 render();
             };
