@@ -106,6 +106,10 @@ $mainColor: #B81B22;
                     text-align: center;
                     line-height: 46px;
                     color:#fff;
+                    border-radius: 5px;
+                }
+                .zhuce:hover{
+                    background-color: $mainColor;
                 }
             }
         }

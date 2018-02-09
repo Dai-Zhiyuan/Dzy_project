@@ -11,7 +11,6 @@
 
 
     if($data->num_rows == 0){
-     
         
         // 写入数据sql语句
         $sql = "insert into user(username,password,phone) values('$username','$password','$phone')";

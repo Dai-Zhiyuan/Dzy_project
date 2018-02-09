@@ -128,6 +128,11 @@
   text-align: center;
   line-height: 46px;
   color: #fff;
+  border-radius: 5px;
+}
+
+#main .container .reg_r .reg_form .zhuce:hover {
+  background-color: #B81B22;
 }
 
 #foot footer {
