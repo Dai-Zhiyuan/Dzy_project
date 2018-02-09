@@ -22,11 +22,11 @@ require(['config'],function(){
 
             //飞入购物车动画
             var $jiaru = $('.btn_j');
-            var $img = $('#img');//console.log($qty.text());
+            var $img = $('#img');
 
             $jiaru.on('click',function(){
 
-                // 复制当前商品图片(目的：用于实现动画效果)
+                // 复制商品图片
                 var $copyImg = $img.clone();
 
                 // 设定图片样式
@@ -103,7 +103,7 @@ require(['config'],function(){
 
         price.innerText = obj.price;
 
-        //点击存入cookie
+        //存入cookie
         var goods = document.querySelector(".btn");
 
         var goodslist = [];
@@ -132,8 +132,7 @@ require(['config'],function(){
                         break;
                     }
                 }
-                // 如果i的值等于goodslist.length
-                // 说明循环执行完成后，无法找对应id的商品
+                
                 if(i===goodslist.length){
                     // 通过按钮获取商品信息
                     var goods = obj;
