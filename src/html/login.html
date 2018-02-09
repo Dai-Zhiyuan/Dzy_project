@@ -5,13 +5,8 @@
     <title>登录</title>
     <link rel="stylesheet" type="text/css" href="../css/base.css" />
     <link rel="stylesheet" type="text/css" href="../css/login.css" />
-    <!-- <script type="text/javascript" src="../js/login.js"></script> -->
-    <script type="text/javascript" src="../lib/jquery-3.2.1.js"></script>
-    <script type="text/javascript">
-        jQuery(function($){
-             $('#foot').load('footer.html');
-        });
-    </script>
+    <script src="../lib/jquery-3.2.1.js"></script>
+    <script src="../js/login.js"></script>
 </head>
 <body>
     <div id="head">
@@ -35,8 +30,8 @@
                             <img src="../img/erweima.jpg" alt="" />
                         </div>
                     </div>
-                    <input type="text" placeholder="请输入用户名"/><br />
-                    <input type="password" placeholder="请输入密码"/><br />
+                    <input type="text" placeholder="请输入用户名" id="username"/><br />
+                    <input type="password" placeholder="请输入密码" id="password"/><br />
                     <p class="not">!没有该账户</p>
                     <p><a href="#">找回密码</a></p>
                     <div class="btn">登 录</div>

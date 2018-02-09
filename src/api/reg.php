@@ -4,6 +4,7 @@
 
     $username = isset($_GET['username']) ? $_GET['username'] : null;
     $password = isset($_GET['password']) ? $_GET['password'] : null;
+    $phone = isset($_GET['phone']) ? $_GET['phone'] : null;
 
     // 判断用户名是否存在
     $data = $conn->query("select * from user where username='$username'");
@@ -13,7 +14,7 @@
      
         
         // 写入数据sql语句
-        $sql = "insert into user(username,password) values('$username','$password')";
+        $sql = "insert into user(username,password,phone) values('$username','$password','$phone')";
 
         $res = $conn->query($sql);
 

@@ -7,7 +7,8 @@ jQuery(function($){
             url:'../api/reg.php',
             data:{
                 username:$('#username').val(),
-                password:$('#password').val()
+                password:$('#password').val(),
+                phone:$('#phone').val()
             },
             success:function(data){console.log(data);
                 
